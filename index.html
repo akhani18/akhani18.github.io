@@ -51,11 +51,11 @@ UserId: <input name="userId" required="" size="60" type="number"/>
    };
    var userId = form["userId"].value;
 // Identify call
-    analytics.identify(userId, {
-      email: email,
-      name: fullname,
-      shoeType: shoeType
-    });
+//    analytics.identify(userId, {
+//      email: email,
+//      name: fullname,
+//      shoeType: shoeType
+//    });
  //  Sign-up Track call
     analytics.track('user signed up', user, function() {
       window.location.href = "";
